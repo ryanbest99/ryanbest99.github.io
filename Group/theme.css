@@ -1,0 +1,279 @@
+body{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    min-width: 50%;
+    background-color:;
+}
+div{
+    border: 0px blue solid;
+    padding: 2%; 
+    text-align: left;
+    min-width: 20%;
+    
+}
+
+.nav{
+    background-image: url(alternimgs/choco9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.one{
+    text-align:center;
+    font-size: 40px;
+    padding: none;
+}
+
+.choco a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 40px;
+    padding: 0px;
+}
+.one p{
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: bold;
+  
+}
+
+.two{
+  padding:0%;
+  
+}
+
+.two a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family :sans-serif;
+  color: #68340e; 
+}
+
+.two a:hover{
+  color: #ffffff;
+  background-color: #68340e;
+}
+
+.about a:hover{
+  background-color: wheat;
+  color: #ffffff;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.parent {
+  justify-content: center;
+}
+.parent ul {
+    display: block
+}
+.choco, .chocolate {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.nav li {
+    text-decoration: none;
+    padding-right: 10%;
+    
+}
+.nav {
+    color: #68340e;
+    background-color: #ffffff;
+    top:0;
+    left: 0;
+    right:0;
+    text-align: center;
+    font-size: 20px;
+    padding :0px;
+}
+.parent img {
+    width: 100px;
+}
+.three {
+  text-align: center;
+  background-image:     margin: 0 60px 60px 60px;
+    padding: 20% 40% 20% 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    text-align : left;
+    background-image: url(alternimgs/mug.jpg);
+    margin: 10px 60px 60px 60px;
+    padding: 5% 30% 15% 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+  text-align: center;
+  padding:0%;
+  display:block;
+  min-width: 50%;
+  background-color: burlywood;
+  color: aliceblue;
+  font-family:cursive;
+}
+
+.about a{
+  text-decoration:none;
+  color: cornsilk;
+}
+.about p{
+  font-size: 15px;
+}
+
+
+.aboutimg img {
+  width: 80%;
+  margin-left:10%;
+  margin-right:10%;
+  display: block;
+}
+
+.main p{
+  font-size:100px;  
+  margin:0%;
+  color: #ffffff;
+}
+h1 { 
+text-align: center;
+}
+.parent {
+  display: flex;  
+}
+.serendipity, .boozy, .nutella {
+  flex:1;
+}
+
+.steps{
+  padding: 
+}
+.steps a{
+  text-decoration: none;
+  color: darkred;
+}
+
+.steps h1 a:hover{
+  background-color: burlywood;
+  color: white;
+}
+
+.steps a:hover{
+  background-color: chocolate;
+  color: white;
+}
+
+.steps h1{
+  margin: 0%;
+}
+
+.steps h3{
+  margin: 0%;
+}
+
+.steps1{
+  display:flex;
+  
+}
+
+.steps h3{
+  text-align: center;
+}
+
+
+.step1 p{
+  text-align: center;
+  
+}
+
+.steps1 a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.first{
+  flex:1;
+  text-align: center;
+  font-size:40px;
+  padding: 10% 0 10% 0;
+  margin:30px;
+  background-color: burlywood;
+  hyphens: auto;
+}
+
+.first a{
+  color: #000000
+}
+
+.second{
+  flex:1;
+  text-align: center;
+  font-size:40px;
+  font-size:40px;
+  padding: 10% 0 10% 0;
+  margin:30px;
+  background-color: bisque;
+}
+
+.second a{
+  color:#000000;
+}
+
+.third{
+  flex:1;
+  text-align: center;
+  font-size:40px;
+  font-size:40px;
+  padding: 10% 0 10% 0;
+  margin:30px;
+  background-color: coral;
+}
+
+.third a{
+  color: #000000
+}
+
+.aboutimg{
+    text-align: center;
+}
+
+.frozen {
+  flex:1;
+  color:#ffffff;
+}
+.frozen img {
+    width: 100%; 
+}
+
+.boozy{
+  flex:1;
+  color:#ffffff;
+}
+
+.boozy img {
+  width: 100%;
+ }
+
+.nutella{
+  flex:1;
+  color:#ffffff;
+}
+.nutella img {
+    width: 100%;
+}
+
+.pouringbox, .variantsbox, .toppingsbox{
+    display: flex;
+    flex: 1;
+    
+}
+
+
