@@ -1,0 +1,370 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #;
+    color: #;
+}
+
+.nav2 ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.nav2 li{
+    padding: 10px;
+}
+
+.nav2 li a{
+    text-decoration: none;
+    color: #;
+}
+
+.logo h1{
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #32CD32;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: 70px;
+    margin-left: 50px;
+    
+}
+
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/image17.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/image5.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('../img/image6.jpg');
+  min-height:400px;
+}
+
+.pimg4{
+  background-image:url('../img/image10.jpg');
+  min-height:600px;
+  
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3, .pimg4{
+    background-attachment:scroll;
+  }
+}
+
+
+.ABOUT{
+    background-color: #007;
+    color: #fff;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+
+.explain{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.photo{
+    background-image:url('../img/image12.jpg');
+    padding: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    
+}
+.map{
+    background-color: #4CA64C;
+    padding: 50px;
+    text-align: center;
+    color: #fff;   
+    
+}
+
+.map2{
+    background-image:url('../img/image11.jpg');
+    margin left: 20%;
+    margin right: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: ;
+    padding: 400px 200px;
+   
+}
+
+.ticket{
+    text-align: center;
+    background-color: #FFB6C1;
+    color: #fff;
+    padding: 30px;
+}
+
+.ticket2{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.security{
+    text-align: center;
+    background-color: #FFFF33;
+    padding: 20px;
+}
+
+
+.security2{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+}
+
+.ready{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+.gali{
+    text-align: center;
+    background-color: #f5f5dc;
+    padding: 30px;
+    
+}
+
+.first{
+    margin-top: 40px;
+    border: px red solid;
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.one{
+    flex:1;
+    background-image:url('../img/image13.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.two{
+    flex:1;
+    background-image:url('../img/image15.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.three{
+    flex:1;
+    background-image:url('../img/image18.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.second{
+    margin-top: ;
+    border: px red solid;
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.four{
+    flex:1;
+    background-image:url('../img/image8.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.five{
+    flex:1;
+    background-image:url('../img/image14.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.six{
+    flex:1;
+    background-image:url('../img/image19.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.third{
+    margin-top: ;
+    border: px red solid;
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.seven{
+    flex:1;
+    background-image:url('../img/image6.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.eight{
+    flex:1;
+    background-image:url('../img/image17.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nine{
+    flex:1;
+    background-image:url('../img/image9.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fourth{
+    margin-top: ;
+    border: px red solid;
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.ten{
+    flex:1;
+    background-image:url('../img/image4.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.eleven{
+    flex:1;
+    background-image:url('../img/image20.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.twelve{
+    flex:1;
+    background-image:url('../img/image10.jpg');
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letter{
+    text-align: center;
+}
