@@ -16,41 +16,6 @@ var number4 = document.querySelectorAll(".drum")[4].innerHTML = randomNumber4;
 var randomNumber5 = Math.floor(Math.random()*26) + 1;
 var number5 = document.querySelectorAll(".drum")[5].innerHTML = randomNumber5;
 
-// if (randomNumber0 = randomNumber1) {
-    
-// }else if(randomNumber0 = randomNumber2) {
-    
-// }else if(randomNumber0 = randomNumber3) {
-    
-// }else if(randomNumber0 = randomNumber4) {
-    
-// }else if(randomNumber0 = randomNumber5) {
-    
-// }else if(randomNumber1 = randomNumber2) {
-    
-// }else if(randomNumber1 = randomNumber3) {
-    
-// }else if(randomNumber1 = randomNumber4) {
-    
-// }else if(randomNumber1 = randomNumber5) {
-    
-// }else if(randomNumber2 = randomNumber3) {
-    
-// }else if(randomNumber2 = randomNumber4) {
-    
-// }else if(randomNumber2 = randomNumber5) {
-    
-// }else if(randomNumber3 = randomNumber4) {
-    
-// }else if(randomNumber3 = randomNumber5) {
-    
-// }else if(randomNumber4 = randomNumber5) {
-    
-// }else {
-    
-// }
-
-
 
 
 
